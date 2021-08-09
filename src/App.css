@@ -1,3 +1,22 @@
 body{
   background-color: rgb(230, 230, 230);
 }
+.recipe-container{
+  background: hsla(0, 0%, 0%, 1);
+  background: linear-gradient(
+    45deg,
+    hsla(0, 0%, 0%, 1) 73%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(0, 0%, 0%, 1) 73%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(0, 0%, 0%, 1) 73%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  min-height: 100vh;
+}

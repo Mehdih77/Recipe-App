@@ -1,11 +1,35 @@
-.header{
-    background-color: rgb(26, 26, 26);
-    height: 110px;
+.header {
+  background: hsla(0, 0%, 0%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(0, 0%, 0%, 1) 53%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(0, 0%, 0%, 1) 53%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(0, 0%, 0%, 1) 53%,
+    hsla(108, 100%, 19%, 1) 100%
+  );
+  padding: 10px;
 }
-.header h2{
-    color: rgb(0, 155, 0);
+.header h2 {
+  color: rgb(0, 105, 0);
 }
-.header-title-logo{
-    display: flex;
-    justify-content: space-between;
+.header-title-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-title-logo img {
+  width: 110px;
+}
+.search-box {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }

@@ -7,9 +7,11 @@ export default function Header() {
         <header className='header'>
             <div className='header-title-logo'>
             <h2>Recipe App</h2>
-            <p>img</p>
+            <img src="./images/food-icon.png" alt="food icon recipe green" />
             </div>
-            <SearchBox/>
+            <div className='search-box'>
+                <SearchBox/>
+            </div>
         </header>
     )
 }
