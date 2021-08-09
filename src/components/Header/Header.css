@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(26, 26, 26);
+    height: 110px;
+}
+.header h2{
+    color: rgb(0, 155, 0);
+}
+.header-title-logo{
+    display: flex;
+    justify-content: space-between;
+}
